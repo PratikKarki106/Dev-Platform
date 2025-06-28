@@ -1,0 +1,51 @@
+button {
+  all: unset; /* removes all default styles */
+  background-color: transparent; /* optional, ensures no background */
+  color: inherit; /* keeps your text color */
+  font: inherit;
+  cursor: pointer;
+}
+
+
+.Navbar{
+    background-color: #282c34;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin-top: -30px;
+    height: 120px;
+    width: 100vw;
+    margin-left: -8px;
+}
+
+.Navbar .Nav-btn{
+    color: white;
+    font-size: 18px;
+    border-bottom: 2px solid transparent;
+    margin-top: 30px;
+
+}
+
+.Navbar .Nav-btn:hover{
+    transition: all 0.3s ease-out;
+    color: rgb(18, 81, 255);
+    border-bottom-color: rgb(18, 81, 255);
+}
+
+.Navbar .logo{
+    position: absolute;
+    margin-right: 1350px;
+    width: 75px;
+    height: 75px;
+    margin-top: 30px;
+}
+.Navbar input{
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    width: 200px;
+    margin-top: 30px;
+}
