@@ -1,9 +1,10 @@
 .Contact-Container{
     background-color: #282c34;
     width: 100vw;
+    min-height: 100vh;
     margin-left: -8px;
     margin-top: -22px;
-    padding-top: 5px;
+    padding-top: 10px;
 }
 
 .Contact-Container h1{
@@ -23,7 +24,7 @@
 .Contact-details{
     display: flex;
     flex-direction: column;
-    color: white;
+    color: #2E003E;
     align-items: center;
     background-color: aqua;
     margin-left: 50px;
@@ -46,11 +47,13 @@
     text-align: center;
 }
 .Contact-form{
-    margin-top: 30px;
+    margin-top: -50px;
     border: solid 1px white;
     background-color: rgb(43, 136, 105);
     width: 800px;
+    height: 350px;
     margin-left: 400px;
+    padding-top: 60px;
 }  
 
 .Contact-form h2{
@@ -83,4 +86,5 @@
     border-radius: 10px;
     text-align: center;
     padding: 10px;
+    margin-bottom: 10px;
 }

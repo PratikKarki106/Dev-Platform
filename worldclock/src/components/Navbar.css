@@ -18,13 +18,14 @@ button {
     height: 120px;
     width: 100vw;
     margin-left: -8px;
+    border-bottom: 1px solid white;
 }
 
 .Navbar .Nav-btn{
     color: white;
     font-size: 18px;
     border-bottom: 2px solid transparent;
-    margin-top: 30px;
+    margin-top: 50px;
 
 }
 
@@ -37,9 +38,9 @@ button {
 .Navbar .logo{
     position: absolute;
     margin-right: 1350px;
-    width: 75px;
-    height: 75px;
-    margin-top: 30px;
+    width: 70px;
+    height: 70px;
+    margin-top: 40px;
 }
 .Navbar input{
     background-color: white;
