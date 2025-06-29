@@ -1,0 +1,71 @@
+.timed-container{
+    background-color: #282c34;
+    color: white;
+
+}
+.home{
+    background-color: #282c34;
+    width: 100vw;
+    margin-left: -8px;
+    border-bottom: 1px solid white;
+}
+
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.home-button{
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    font-size: 25px;
+    padding: 10px 20px;
+    color: white;
+}
+
+.home-button:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(4, 85, 85);
+    cursor: pointer;
+}
+
+.home-logo{
+    width: 250px;
+    height: 150px;
+    margin-bottom: 20px;
+}
+
+.timed-container {
+  display: flex;
+  flex-direction: column; /* Stack children vertically */
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+
+.timed-button{
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    font-size: 25px;
+    padding: 10px 20px;
+    color: white;
+    margin: 10px
+}
+
+
+.button-row {
+  display: flex;
+  gap: 20px; /* Space between buttons */
+  margin-top: 20px;
+}
+
+
+.timed-button:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(4, 85, 85);
+    cursor: pointer;
+}

@@ -5,7 +5,7 @@ import './Contact.css'
 const Contact = () => {
   return (
     <div className='Contact-Container'>
-        <Navbar />
+        {/* <Navbar /> */}
         <h1> Contact Us</h1>
         <div className='Contact-small'>
           <div className='Contact-details'>

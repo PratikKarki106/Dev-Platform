@@ -1,0 +1,50 @@
+*{
+  background-color: #282c34;
+}
+
+.typing-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-bottom: 100px;
+}
+
+/* Timer display */
+.timer {
+  font-size: 20px;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+/* Highlighted sentence area */
+.sentence {
+  font-size: 24px;
+  margin-top: 60px;
+  margin-bottom: 20px;
+  color: white;
+  line-height: 1.6;
+  min-height: 80px;
+}
+
+/* Typing feedback */
+.correct {
+  color: #4caf50; /* Green */
+}
+
+.incorrect {
+  color: #f44336; /* Red */
+}
+
+/* Text input area */
+textarea {
+  width: 100%;
+  height: 120px;
+  font-size: 16px;
+  padding: 10px;
+  resize: none;
+  border-radius: 8px;
+  border: 1px solid white;
+  outline: none;
+}

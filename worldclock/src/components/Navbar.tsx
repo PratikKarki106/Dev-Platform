@@ -17,7 +17,7 @@ const Navbar: React.FC = () => {
     <div className='Navbar'>
       <img src={Logo} alt='logo' className='logo' />
       <input type="text" placeholder="Search..." className="search-input" value={query} onChange = {(e) => setQuery(e.target.value)} onKeyDown={handleKey}/>
-      <button className='Nav-btn'> Home </button>
+      <button className='Nav-btn' onClick={() => navigate('/Home')}> Home </button>
       <button className='Nav-btn' onClick={() => navigate('/Contact')}> Contact </button>
       <button className='Nav-btn' onClick={() => navigate('/About')}> About </button>
     </div>

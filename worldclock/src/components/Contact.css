@@ -3,8 +3,9 @@
     width: 100vw;
     min-height: 100vh;
     margin-left: -8px;
-    margin-top: -22px;
+    margin-top: -30px;
     padding-top: 10px;
+    border: 1px solid white;
 }
 
 .Contact-Container h1{
@@ -39,12 +40,17 @@
 .Contact-details img{
     width: 20px;
     height: 20px;
+    background-color: aqua;
 }
 
+.Contact-details h4{
+    background-color: aqua;
+}
 .Contact-details p{
     margin-top: -15px;
     word-break: break-word;
     text-align: center;
+    background-color: aqua;
 }
 .Contact-form{
     margin-top: -50px;
@@ -59,23 +65,27 @@
 .Contact-form h2{
     color: white;
     text-align: center;
+    background-color: rgb(43, 136, 105);
 }
 .Contact-form form{
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 10px;
+    background-color: rgb(43, 136, 105);
 }
 
 .Contact-form form input{
     width: 450px;
     height: 30px;
     border-radius: 10px;
+    background-color: white;
 }
 .Contact-form form textarea{
     width: 450px;
     height: 80px;
     border-radius: 10px;
+    background-color: white;
 }
 .Contact-form form button{
     margin-top: 20px;
