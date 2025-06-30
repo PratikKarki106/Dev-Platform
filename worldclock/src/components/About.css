@@ -1,0 +1,20 @@
+.About-Container {
+    color: white;
+    border-top: 1px solid white;
+    margin-bottom: 35px;
+}
+
+.About-Container h1{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.About-Container p{
+    line-height: 25px;
+}
+
+.About-Container img{
+    width: 40px;
+    height: 40px;
+    margin-left: 20px;
+}
