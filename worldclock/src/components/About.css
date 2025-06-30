@@ -9,12 +9,18 @@
     margin-top: 20px;
 }
 
+.About-Container h2{
+    margin-left: 10px;
+}
 .About-Container p{
     line-height: 25px;
+    margin-left: 10px;
 }
 
 .About-Container img{
     width: 40px;
     height: 40px;
     margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
